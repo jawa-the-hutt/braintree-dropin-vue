@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": false,
+    "target": "esnext",
+    "module": "es6",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "lib": ["es2015", "es6", "es7", "dom"]
+  },
+  "include": ["src", "typings"],
+  "exclude": ["node_modules"]
+}
