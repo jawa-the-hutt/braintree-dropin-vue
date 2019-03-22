@@ -1,6 +1,6 @@
 {
   "name": "braintree-dropin-vue",
-  "version": "0.0.6",
+  "version": "0.0.5",
   "description": "Vue Component for Braintree Web Drop-In",
   "main": "dist/braintree-dropin-vue.umd.js",
   "module": "dist/braintree-dropin-vue.esm.js",
@@ -23,8 +23,7 @@
     "clean": "rimraf dist/*",
     "preversion": "npm run clean && npm test",
     "version": "npm run build && git add -A && cross-var git commit -m \"build $npm_package_version\"",
-    "postversion": "git push --tags origin master",
-    "publish": "npm version patch --force && npm publish"
+    "postversion": "git push --tags origin master"
   },
   "repository": {
     "type": "git",
