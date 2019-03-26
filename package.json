@@ -1,6 +1,6 @@
 {
   "name": "braintree-dropin-vue",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Vue Component for Braintree Web Drop-In",
   "main": "dist/braintree-dropin-vue.umd.js",
   "module": "dist/braintree-dropin-vue.esm.js",
